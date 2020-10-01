@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="switch-wallpaper-vala">
+	<schema id="com.github.mabhishek7081.wpvala" path="/com/github/mabhishek7081/wpvala/">
+	 <key name="images-dir" type="as">
+      <default>[ '/usr/share/backgrounds' ]</default>
+      <summary>Wallpaper directories</summary>
+      <description>List of directories with images to search</description>
+    </key>
+	</schema>
+</schemalist>
