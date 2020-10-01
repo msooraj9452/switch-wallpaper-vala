@@ -239,3 +239,22 @@ private class Program : Gtk.Application {
         return app.run(args);
     }
 }
+
+public class Application : Gtk.Application {
+
+	public Application () {
+		Object (
+			application_id: "com.github.mabhishek7081.jarvis",
+			flags: ApplicationFlags.FLAGS_NONE
+		);
+	}
+
+	protected override void activate () {
+		var window = new Jarvis.Window (this);
+		add_window (window);
+	}
+}
+public static int main (string[] args) {
+	var app = new Application ();
+	return app.run (args);
+}

@@ -1,7 +1,6 @@
 switch_wallpaper_vala_sources = [
   'main.vala',
-  'window.vala',
-]
+  ]
 
 switch_wallpaper_vala_deps = [
   dependency('gio-2.0', version: '>= 2.50'),
